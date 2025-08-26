@@ -1,11 +1,15 @@
-import React from "react";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import CapitalsMap from "./CapitalsMap";
+
 
 function App() {
   return (
-    <div className="App">
-      <CapitalsMap />
-    </div>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<CapitalsMap />} />
+       
+      </Routes>
+    </HashRouter>
   );
 }
 
