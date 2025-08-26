@@ -1,8 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-
 export default defineConfig({
-  base: "/capitals-map/",
+  base: "/capitals-map/",  // שם הריפוזיטורי שלך
   plugins: [react()],
 });
