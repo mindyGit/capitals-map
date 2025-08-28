@@ -35,7 +35,7 @@ export default function CapitalsMap() {
       container: mapDiv.current,
       map,
       center: [35, 31.5], // Israel
-      zoom: 10
+      zoom: 12
     });
 
     return () => {
