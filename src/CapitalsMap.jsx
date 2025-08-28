@@ -18,7 +18,7 @@ export default function CapitalsMap() {
             symbol: {
               type: "simple-marker",
               style: "circle",
-              size: 8,
+              size: 10,
               color: "red",
               outline: { color: "white", width: 1 }
             }
